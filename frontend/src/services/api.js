@@ -24,6 +24,12 @@ export const sendMessage = (senderId, receiverId, text) =>
 export const getConversation = (senderId, receiverId) =>
   api.get(`/messages/${senderId}/${receiverId}`);
 
+export const getConversationSummaries = (userId) =>
+  api.get(`/messages/summary/${userId}`);
+
+export const markMessagesAsRead = (readerId, otherUserId) =>
+  api.post('/messages/read', { readerId, otherUserId });
+
 export const getAllMessages = () => api.get('/messages');
 
 export default api;
