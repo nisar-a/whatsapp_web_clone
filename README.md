@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WhatsApp Web Clone
 
 A full-stack real-time messaging application built with **React**, **Node.js/Express**, **MongoDB**, and **Socket.IO**.
@@ -378,3 +379,6 @@ For issues and questions, please create an issue in the repository.
 ---
 
 **Happy Chatting! 💬**
+=======
+# whatsapp_web_clone
+>>>>>>> 55d428c898eefc641f63dd99fbdf1b670689b357
